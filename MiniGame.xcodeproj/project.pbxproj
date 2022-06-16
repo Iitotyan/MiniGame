@@ -11,6 +11,12 @@
 		E67BFA59285A1B3800240B7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA58285A1B3800240B7B /* ContentView.swift */; };
 		E67BFA5B285A1B3A00240B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67BFA5A285A1B3A00240B7B /* Assets.xcassets */; };
 		E67BFA5E285A1B3A00240B7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67BFA5D285A1B3A00240B7B /* Preview Assets.xcassets */; };
+		E67BFA66285A1C0000240B7B /* GameScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA65285A1C0000240B7B /* GameScene1.swift */; };
+		E67BFA68285A23FC00240B7B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA67285A23FC00240B7B /* Constant.swift */; };
+		E67BFA6A285A94B700240B7B /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA69285A94B700240B7B /* TitleScene.swift */; };
+		E67BFA70285A9F6900240B7B /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA6F285A9F6900240B7B /* GameScene2.swift */; };
+		E67BFA72285A9FC600240B7B /* GameScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA71285A9FC600240B7B /* GameScene3.swift */; };
+		E67BFA74285A9FF500240B7B /* GameScene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BFA73285A9FF500240B7B /* GameScene4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		E67BFA58285A1B3800240B7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E67BFA5A285A1B3A00240B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E67BFA5D285A1B3A00240B7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E67BFA65285A1C0000240B7B /* GameScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene1.swift; sourceTree = "<group>"; };
+		E67BFA67285A23FC00240B7B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E67BFA69285A94B700240B7B /* TitleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		E67BFA6F285A9F6900240B7B /* GameScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
+		E67BFA71285A9FC600240B7B /* GameScene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene3.swift; sourceTree = "<group>"; };
+		E67BFA73285A9FF500240B7B /* GameScene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,7 @@
 		E67BFA4A285A1B3800240B7B = {
 			isa = PBXGroup;
 			children = (
+				E67BFA64285A1BEF00240B7B /* Scene */,
 				E67BFA55285A1B3800240B7B /* MiniGame */,
 				E67BFA54285A1B3800240B7B /* Products */,
 			);
@@ -53,6 +66,7 @@
 			children = (
 				E67BFA56285A1B3800240B7B /* MiniGameApp.swift */,
 				E67BFA58285A1B3800240B7B /* ContentView.swift */,
+				E67BFA67285A23FC00240B7B /* Constant.swift */,
 				E67BFA5A285A1B3A00240B7B /* Assets.xcassets */,
 				E67BFA5C285A1B3A00240B7B /* Preview Content */,
 			);
@@ -65,6 +79,50 @@
 				E67BFA5D285A1B3A00240B7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E67BFA64285A1BEF00240B7B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E67BFA69285A94B700240B7B /* TitleScene.swift */,
+				E67BFA6B285A9E3200240B7B /* Game1 */,
+				E67BFA6C285A9E3D00240B7B /* Game2 */,
+				E67BFA6D285A9E4A00240B7B /* Game3 */,
+				E67BFA6E285A9E5100240B7B /* Game4 */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E67BFA6B285A9E3200240B7B /* Game1 */ = {
+			isa = PBXGroup;
+			children = (
+				E67BFA65285A1C0000240B7B /* GameScene1.swift */,
+			);
+			path = Game1;
+			sourceTree = "<group>";
+		};
+		E67BFA6C285A9E3D00240B7B /* Game2 */ = {
+			isa = PBXGroup;
+			children = (
+				E67BFA6F285A9F6900240B7B /* GameScene2.swift */,
+			);
+			path = Game2;
+			sourceTree = "<group>";
+		};
+		E67BFA6D285A9E4A00240B7B /* Game3 */ = {
+			isa = PBXGroup;
+			children = (
+				E67BFA71285A9FC600240B7B /* GameScene3.swift */,
+			);
+			path = Game3;
+			sourceTree = "<group>";
+		};
+		E67BFA6E285A9E5100240B7B /* Game4 */ = {
+			isa = PBXGroup;
+			children = (
+				E67BFA73285A9FF500240B7B /* GameScene4.swift */,
+			);
+			path = Game4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67BFA72285A9FC600240B7B /* GameScene3.swift in Sources */,
+				E67BFA66285A1C0000240B7B /* GameScene1.swift in Sources */,
 				E67BFA59285A1B3800240B7B /* ContentView.swift in Sources */,
 				E67BFA57285A1B3800240B7B /* MiniGameApp.swift in Sources */,
+				E67BFA70285A9F6900240B7B /* GameScene2.swift in Sources */,
+				E67BFA68285A23FC00240B7B /* Constant.swift in Sources */,
+				E67BFA6A285A94B700240B7B /* TitleScene.swift in Sources */,
+				E67BFA74285A9FF500240B7B /* GameScene4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,10 +328,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniGame/Preview Content\"";
-				DEVELOPMENT_TEAM = 99Q9LW9PZC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,8 +344,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryoma.MovePuzzle.MiniGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryoma.minigame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,10 +358,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniGame/Preview Content\"";
-				DEVELOPMENT_TEAM = 99Q9LW9PZC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,8 +374,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryoma.MovePuzzle.MiniGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryoma.minigame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
