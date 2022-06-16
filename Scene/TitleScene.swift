@@ -33,6 +33,7 @@ let btnlabel = SKLabelNode(fontNamed:"AvenirNext-Heavy")
     btnlabel.horizontalAlignmentMode = .center
     btnlabel.position = CGPoint(x: xv/40*7,y:xv/40*0.5)
     btnlabel.fontSize = xv/40*2.0
+    btnlabel.name = "\(btncount)"
     btnframe.addChild(btnlabel)
     btncount += 1
     }
